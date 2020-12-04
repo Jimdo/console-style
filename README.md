@@ -12,4 +12,5 @@ https://github.com/Jimdo/console-style/raw/main/console-dark-mode.user.css
 
 Press `Install style`
 Make sure that `Check for updates` is set
+
 ![screenshot of installation screen](./images/screenshot-install.png)
