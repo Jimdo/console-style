@@ -2,8 +2,9 @@
 
 ## Install Stylus
 
-(https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne?hl=en)[Chrome]
-(https://addons.mozilla.org/en-US/firefox/addon/styl-us/)[Firefox]
+[Chrome Extension](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne?hl=en)
+
+[Firefox AddOn](https://addons.mozilla.org/en-US/firefox/addon/styl-us/)
 
 ## Add theme
 Go to
