@@ -1,0 +1,114 @@
+/* ==UserStyle==
+@name           Dark - Jimdo Support Console
+@namespace      Jimdo
+@version        1.0.0
+@description    DarkMode for the support console
+@author         Dennis Markmann
+==/UserStyle== */
+
+@-moz-document domain("console.jimdo-platform.net"), domain("console-stable.jimdo-platform.net") {
+    body {
+        background-color: #191a1a
+    }
+    
+    .MuiCardHeader-root {
+        background: #005469;
+    }
+    
+    .MuiLinearProgress-colorSecondary {
+        background-color: #00828c;
+    }
+    
+    .MuiLinearProgress-barColorSecondary {
+        background-color: #005469;
+    }
+    
+    .MuiButton-root.Mui-disabled {
+        color: rgba(255, 255, 255, 0.26);
+    }
+    
+    a:link {
+        color: #42A5F5
+    }
+    
+    a:visited {
+        color: #9f5afd
+    }
+    
+    .MuiDivider-root {
+        border: none;
+        background-color: rgba(255, 255, 255, 0.12);
+    }
+    
+    .MuiTypography-colorTextSecondary {
+        color: rgba(255, 255, 255, 0.54);
+    }
+    
+    .MuiPaper-root {
+        color: #fff;
+        background-color: #2e3131;
+    }
+    
+    .MuiButton-root {
+        color: rgba(255, 255, 255, 0.87);
+    }
+    
+    .MuiButton-outlined {
+        border: 1px solid rgba(255, 255, 255, 0.23);
+    }
+    
+    .MuiIcon-colorDisabled {
+        color: #fff;
+    }
+    
+    .MuiSelect-icon,
+    .MuiListItemIcon-root {
+        color: rgba(255, 255, 255, 0.54);
+    }
+    
+    .MuiInput-underline:before {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.42);
+    }
+    
+    .MuiSvgIcon-colorDisabled {
+        color: rgba(255, 255, 255, 0.26);
+    }
+    
+    .MuiInputBase-input {
+        color: #fff
+    }
+    
+    .MuiIconButton-root {
+        color: #f2f1ef;
+    }
+    
+    .MuiSwitch-track {
+        background-color: #f2f1ef;
+    }
+    
+    .MuiSwitch-colorSecondary.Mui-disabled + .MuiSwitch-track {
+        background-color: #f2f1ef;
+    }
+    
+    .MuiIconButton-root.Mui-disabled {
+        color: #777675;
+    }
+    
+    .MuiButton-contained {
+        background-color: #777675;
+    }
+    
+    .MuiFormHelperText-root {
+        color: rgba(255, 255, 255, 0.54);
+    }
+    
+    .MuiTableCell-head,
+    .MuiTableCell-body {
+        color: rgba(255, 255, 255, 0.87);
+    }
+    
+    .MuiTypography-colorInherit,
+    .jss13 {
+        color: rgba(255, 255, 255, 0.38);
+    }
+}
