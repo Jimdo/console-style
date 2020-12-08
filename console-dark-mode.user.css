@@ -1,115 +1,131 @@
 /* ==UserStyle==
 @name           Dark - Jimdo Support Console
-@namespace      Jimdo
-@homepageURL    https://github.com/Jimdo/console-style
-@version        1.0.0
+@namespace      github.com/openstyles/stylus
+@version        1.0.1
 @description    DarkMode for the support console
 @author         Dennis Markmann
+@advanced color primary-color "Primary Color" #00828c
+@advanced color secondary-color "Secondary Color" #005469
+@advanced color background-color "Background Color" #191a1a
+@advanced color background-secondary-color "Secondary Background Color" #2e3131
+@advanced color accent "Accent Color" #42A5F5
+@advanced color accent-2 "Accent Color 2" #5A5CCC 
+
+@advanced color contrast-100 "Contrast Color 100" hsl(0, 0%, 100%)
+@advanced color contrast-80 "Contrast Color 80" hsl(0, 0%, 80%)
+@advanced color contrast-50 "Contrast Color 50" hsl(0, 0%, 50%)
+@advanced color contrast-40 "Contrast Color 40" hsl(0, 0%, 40%)
+
+
 ==/UserStyle== */
 
-@-moz-document domain("console.jimdo-platform.net"), domain("console-stable.jimdo-platform.net") {
+@-moz-document domain("console.jimdo-platform.net"), domain("console-stable.jimdo-platform.net") {   
     body {
-        background-color: #191a1a
-    }
-    
-    .MuiCardHeader-root {
-        background: #005469;
-    }
-    
-    .MuiLinearProgress-colorSecondary {
-        background-color: #00828c;
-    }
-    
-    .MuiLinearProgress-barColorSecondary {
-        background-color: #005469;
-    }
-    
-    .MuiButton-root.Mui-disabled {
-        color: rgba(255, 255, 255, 0.26);
-    }
-    
-    a:link {
-        color: #42A5F5
-    }
-    
-    a:visited {
-        color: #9f5afd
-    }
-    
-    .MuiDivider-root {
-        border: none;
-        background-color: rgba(255, 255, 255, 0.12);
-    }
-    
-    .MuiTypography-colorTextSecondary {
-        color: rgba(255, 255, 255, 0.54);
-    }
+        background-color: /*[[background-color]]*/;
+    }    
     
     .MuiPaper-root {
         color: #fff;
-        background-color: #2e3131;
+        background-color: /*[[background-secondary-color]]*/;
+    }
+    
+    .MuiCardHeader-root {
+        background: /*[[secondary-color]]*/;
+    }
+    
+    .MuiLinearProgress-colorSecondary {
+        background-color: /*[[primary-color]]*/;
+    }
+    
+    .MuiLinearProgress-barColorSecondary {
+        background-color: /*[[secondary-color]]*/;
+    }
+    
+    .MuiButton-root.Mui-disabled {
+        color: /*[[contrast-40]]*/;
+    }
+    
+    a:link {
+        color: /*[[accent]]*/
+    }
+    
+    a:visited {
+        color: /*[[accent-2]]*/
+    }
+    
+    .MuiDivider-root {
+        background-color: /*[[contrast-40]]*/;
+    }
+    
+    .MuiTypography-colorTextSecondary {
+        color: /*[[contrast-50]]*/;
     }
     
     .MuiButton-root {
-        color: rgba(255, 255, 255, 0.87);
+        color: /*[[contrast-80]]*/;
     }
     
     .MuiButton-outlined {
-        border: 1px solid rgba(255, 255, 255, 0.23);
+        border: 1px solid /*[[contrast-40]]*/;
     }
     
     .MuiIcon-colorDisabled {
-        color: #fff;
+        color: /*[[contrast-100]]*/;
     }
     
     .MuiSelect-icon,
     .MuiListItemIcon-root {
-        color: rgba(255, 255, 255, 0.54);
+        color: /*[[contrast-50]]*/;
     }
     
     .MuiInput-underline:before {
-        border-bottom: 1px solid rgba(255, 255, 255, 0.42);
+        border-bottom: 1px solid /*[[contrast-40]]*/;
     }
     
     .MuiSvgIcon-colorDisabled {
-        color: rgba(255, 255, 255, 0.26);
+        color: /*[[contrast-50]]*/;
     }
     
     .MuiInputBase-input {
-        color: #fff
+        color: /*[[contrast-100]]*/
     }
     
     .MuiIconButton-root {
-        color: #f2f1ef;
+        color: /*[[contrast-80]]*/;
     }
     
     .MuiSwitch-track {
-        background-color: #f2f1ef;
+        background-color: /*[[contrast-80]]*/;
     }
     
     .MuiSwitch-colorSecondary.Mui-disabled + .MuiSwitch-track {
-        background-color: #f2f1ef;
+        background-color: /*[[contrast-80]]*/;
+    }
+    
+    .MuiInput-underline:hover:not(.Mui-disabled):before {
+        border-bottom: 2px solid /*[[contrast-80]]*/;
+        border-bottom-color: /*[[contrast-80]]*/;
     }
     
     .MuiIconButton-root.Mui-disabled {
-        color: #777675;
+        color: /*[[contrast-40]]*/;
     }
     
     .MuiButton-contained {
-        background-color: #777675;
+        background-color: /*[[contrast-40]]*/;
     }
     
     .MuiFormHelperText-root {
-        color: rgba(255, 255, 255, 0.54);
+        color: /*[[contrast-50]]*/;
     }
     
     .MuiTableCell-head,
     .MuiTableCell-body {
-        color: rgba(255, 255, 255, 0.87);
+        color: /*[[contrast-80]]*/;
     }
     
     .MuiTypography-colorInherit,
     .jss13 {
-        color: rgba(255, 255, 255, 0.38);
+        color: /*[[contrast-40]]*/;
     }
 }
