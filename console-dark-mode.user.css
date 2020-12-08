@@ -25,7 +25,7 @@
     }    
     
     .MuiPaper-root {
-        color: #fff;
+        color: /*[[contrast-100]]*/;
         background-color: /*[[background-secondary-color]]*/;
     }
     
