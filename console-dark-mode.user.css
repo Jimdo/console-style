@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Dark - Jimdo Support Console
 @namespace      github.com/openstyles/stylus
-@version        1.0.3
+@version        1.0.4
 @description    DarkMode for the support console
 @author         Dennis Markmann
 @advanced color primary-color "Primary Color" #00828c
@@ -24,8 +24,7 @@
         background-color: /*[[background-color]]*/;
     }
     
-    .jss57,
-    .jss41 {
+    .jss45 {
         color: /*[[contrast-100]]*/;
         background-color: /*[[background-secondary-color]]*/;
     }
