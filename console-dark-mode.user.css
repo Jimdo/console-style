@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Dark - Jimdo Support Console
 @namespace      github.com/openstyles/stylus
-@version        1.0.6
+@version        1.0.7
 @description    DarkMode for the support console
 @author         Dennis Markmann
 @advanced color primary-color "Primary Color" #010334
@@ -26,6 +26,10 @@
     
     [class^="jss"] {
         color: /*[[contrast-100]]*/;
+    }
+    
+    [role^="presentation"] > [class^="jss"] {
+        background-color: /*[[background-secondary-color]]*/;
     }
     
     .MuiInputBase-input {
@@ -63,6 +67,10 @@
     
     a:visited {
         color: /*[[accent-2]]*/
+    }
+    
+    .MuiSelect-select:not([multiple]) option {
+        background-color: /*[[background-secondary-color]]*/
     }
     
     .MuiDivider-root {
