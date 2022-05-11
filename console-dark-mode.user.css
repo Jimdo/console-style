@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Dark - Jimdo Support Console
 @namespace      github.com/openstyles/stylus
-@version        1.0.7
+@version        1.0.8
 @description    DarkMode for the support console
 @author         Dennis Markmann
 @advanced color primary-color "Primary Color" #010334
@@ -85,6 +85,7 @@
         color: /*[[contrast-80]]*/;
     }
     
+    .MuiPaper-outlined,
     .MuiButton-outlined {
         border: 1px solid /*[[contrast-40]]*/;
     }
