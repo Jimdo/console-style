@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Dark - Jimdo Support Console
 @namespace      github.com/openstyles/stylus
-@version        1.0.8
+@version        1.0.9
 @description    DarkMode for the support console
 @author         Dennis Markmann
 @advanced color primary-color "Primary Color" #010334
@@ -19,7 +19,7 @@
 
 ==/UserStyle== */
 
-@-moz-document domain("console.jimdo-platform.net"), domain("console-stable.jimdo-platform.net") {   
+@-moz-document domain("console.jimdo-platform.net"), domain("support-console.prod.jimdo.systems"), domain("console-stable.jimdo-platform.net"), domain("support-console.stage.jimdo.systems") {   
     body {
         background-color: /*[[background-color]]*/;
     }
