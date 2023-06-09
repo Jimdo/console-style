@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Dark - Jimdo Support Console
 @namespace      github.com/openstyles/stylus
-@version        1.0.10
+@version        1.0.11
 @description    DarkMode for the support console
 @author         Dennis Markmann
 @advanced color primary-color "Primary Color" #010334
@@ -24,7 +24,9 @@
         background-color: /*[[background-color]]*/;
     }
     
-    [class^="jss"] {
+    [class^="jss"],
+    [class^="MuiDataGrid"],
+    [class^="MuiTablePagination-"]{
         color: /*[[contrast-100]]*/;
     }
     
@@ -89,6 +91,10 @@
     .MuiPaper-outlined,
     .MuiButton-outlined {
         border: 1px solid /*[[contrast-40]]*/;
+    }
+    
+    .MuiDataGrid-root {
+        border: 0px;
     }
     
     .MuiIcon-colorDisabled {
