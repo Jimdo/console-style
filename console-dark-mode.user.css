@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Dark - Jimdo Support Console
 @namespace      github.com/openstyles/stylus
-@version        1.0.11
+@version        1.0.12
 @description    DarkMode for the support console
 @author         Dennis Markmann
 @advanced color primary-color "Primary Color" #010334
@@ -35,7 +35,8 @@
     }
     
     .MuiInputBase-input,
-    .Mui-checked {
+    .Mui-checked,
+    .MuiStepLabel-label {
         color: /*[[contrast-100]]*/!important;
     }
     
@@ -46,6 +47,14 @@
     .MuiPaper-root {
         color: /*[[contrast-100]]*/;
         background-color: /*[[background-secondary-color]]*/;
+    }
+    
+    .MuiStepIcon-root.MuiStepIcon-active {
+        color: /*[[secondary-color]]*/;
+    }
+    
+    .MuiStepIcon-root {
+        color: /*[[contrast-40]]*/;
     }
     
     .MuiCardHeader-root {
